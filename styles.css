@@ -1,11 +1,68 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+  font-size: 18px;
+}
+
 body {
-  padding-left: 10%;
+  padding-left: 3rem;
+  padding-right: 3rem;
 }
 
 .large_copy {
-  font-size: 4em;
+  font-size: 8em;
+  line-height: 90%;
+}
+
+.preline_categories {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(152, 152, 152);
 }
 
 .headline_categories {
-  font-size: 3em;
+  font-size: 5em;
+  margin: 0 auto 0.5em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+}
+
+.headline_work {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 2em;
+}
+
+.twocolumns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2%;
+  margin: 0 auto 5em;
+}
+
+.twocolumns_img {
+  background-color: rgb(213, 213, 213);
+  border-radius: 5px;
+  width: 100%;
+  max-height: 15em;
+  place-items: center;
+  object-fit: cover;
+  object-position: 0 70%;
+}
+
+.button_style {
+  padding: 1.8em;
+  border: rgb(236, 236, 231) 1.5px solid;
+  font-size: 0.65em;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  border-radius: 8px;
+}
+
+.button_text {
+  font-size: 0.75em;
 }
