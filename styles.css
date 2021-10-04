@@ -158,7 +158,7 @@ main {
 
 .about_grid img {
   justify-items: center;
-  width: 65%;
+  height: 80%;
 }
 .Headline-Skills,
 .Headline-Hobby {
@@ -174,22 +174,23 @@ main {
   grid-area: Headline-Hobby;
 }
 
-.concert,
-.festival,
-.jogging {
+.Hobbies_block {
   background-color: rgb(236, 236, 231);
   border-radius: 10px;
+  justify-items: center;
+  display: grid;
+  padding: 20%;
 }
 
-.concert {
+#concerts {
   grid-area: Hobby-Concert;
 }
 
-.festival {
+#festivals {
   grid-area: Hobby-Festival;
 }
 
-.jogging {
+#jogging {
   grid-area: Hobby-Jogging;
 }
 
